@@ -447,6 +447,7 @@
         icon.onclick = function () {
             if (song.paused) {
                 song.play();
+                song.volume = 0.1;
                 icon.src = "img/video-pause-button.png";
 
             } else {
